@@ -10,21 +10,24 @@ document.addEventListener("DOMContentLoaded", function(event) {
     function parseResponse(o){
       files=  JSON.parse(o)
       console.log(files)
-      for (file of files){
+      for (file of files)
+      {
         f = file["download_url"]
         g = file["name"]
-        console.log(f)
-        console.log(g)
         present=false;
         if(g=="communityanswer.md")
         {
           present=true;
-          httpGetAsync(f, renderContent)
+          
         }
-        else{
-            console.log("Won't render")
-        }
-       
+      }
+      if(present == true)
+      {
+        httpGetAsync(f, renderContent)
+      }
+      else if( present ==false)
+      {
+          document.getElementById("content2").innerHTML=" No Community answer available yet!";
       }
     }
     
@@ -38,6 +41,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
       
     }
     
+    
+
     function httpGetAsync(theUrl, callback){
       var xmlHttp = new XMLHttpRequest();
       xmlHttp.onreadystatechange = function() { 
