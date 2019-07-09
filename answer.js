@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       console.log(url)
       document.getElementById("content").innerHTML = ""
       httpGetAsync(url, parseResponse)
-      
+      document.getElementById("link").innerHTML = ""
     });
     
     function parseResponse(o){
