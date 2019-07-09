@@ -9,5 +9,3 @@ breadcrumb4: ch1ex1
 breadcrumb5: ex1.1
 ---
 {% include mathjax_support %}
-
-
