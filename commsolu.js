@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     document.getElementById("viewusersolution").addEventListener("click", function(){
       url = document.getElementById("link").innerHTML
       console.log(url)
-      document.getElementById("content").innerHTML = ""
+      document.getElementById("content2").innerHTML = ""
       httpGetAsync(url, parseResponse)
-      document.getElementById("link").innerHTML = ""
+      
     });
     
     function parseResponse(o){
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     
     function renderContent(data){
       console.log(data)
-      contentArea = document.getElementById("content");
+      contentArea = document.getElementById("content2");
       
       var node = document.createElement("div");// Create a <div> node
       node.innerHTML = marked(data)    //Set inner HTML
@@ -46,4 +46,3 @@ document.addEventListener("DOMContentLoaded", function(event) {
       xmlHttp.send(null);
     }
   });
-  
