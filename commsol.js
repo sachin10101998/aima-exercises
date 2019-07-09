@@ -15,12 +15,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
         g = file["name"]
         console.log(f)
         console.log(g)
+        present=false;
         if(g=="communityanswer.md")
         {
-          console.log("Won't render")
+          present=true;
+          httpGetAsync(f, renderContent)
         }
         else{
-          httpGetAsync(f, renderContent)
+            console.log("Won't render")
         }
        
       }
