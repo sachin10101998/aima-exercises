@@ -11,11 +11,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
     {
       files=  JSON.parse(o)
       console.log(files)
+      present=false;
       for (file of files)
       {
         f = file["download_url"]
         g = file["name"]
-        present=false;
+        
         if(g=="communityanswer.md")
         {
           present=true;
