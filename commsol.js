@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
       document.getElementById("link2").innerHTML = ""
     });
     
-    function parseResponse(o){
+    function parseResponse(o)
+    {
       files=  JSON.parse(o)
       console.log(files)
       for (file of files)
@@ -18,17 +19,25 @@ document.addEventListener("DOMContentLoaded", function(event) {
         if(g=="communityanswer.md")
         {
           present=true;
-          
         }
-      }
-      if(present == true)
-      {
-        httpGetAsync(f, renderContent)
-      }
-      else if( present ==false)
-      {
-          document.getElementById("content2").innerHTML=" No Community answer available yet!";
-      }
+       }
+       if(present == true)
+       {
+           for(file of files)
+           {
+               f = file["download_url"]
+               g = file["name"]
+               if(g=="communityanswer.md")
+               {
+                   httpGetAsync(f,renderContent)
+               }
+           }
+       }
+       if(present == false)
+       {
+        document.getElementById("content2").innerHTML=" No Community answer available yet!";
+       }
+     
     }
     
     function renderContent(data){
