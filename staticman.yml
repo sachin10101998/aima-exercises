@@ -17,7 +17,7 @@ ch1ex2:
   commitMessage: "New Answer by {fields.Name} for chapter 1 Exercise 2"
   filename: "answer-{fields.Name}-{@timestamp}"
   format: "yaml"
-   generatedFields:
+  generatedFields:
     date:
       type: "date"
       options:
