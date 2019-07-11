@@ -25,8 +25,7 @@ ch1ex2:
   moderation: true
   path: "markdown/1-Introduction/exercises/ex_2/answers/" 
   requiredFields: ["Name", "Email", "message"]
-  transforms:
-    message: "frontmatterContent"
+  
 
 ch1ex3:
   allowedFields: ["Name", "Email", "url", "message"]
