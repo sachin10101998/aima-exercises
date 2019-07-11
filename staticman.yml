@@ -16,8 +16,12 @@ ch1ex2:
   branch: "master" 
   commitMessage: "New Answer by {fields.Name} for chapter 1 Exercise 2"
   filename: "answer-{fields.Name}-{@timestamp}"
-  format: "frontmatter"
-  extension: "md"
+  format: "yaml"
+   generatedFields:
+    date:
+      type: "date"
+      options:
+        format: "iso8601"
   moderation: true
   path: "markdown/1-Introduction/exercises/ex_2/answers/" 
   requiredFields: ["Name", "Email", "message"]
