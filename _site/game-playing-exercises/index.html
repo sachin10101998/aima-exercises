@@ -190,7 +190,7 @@ Each node is labeled with the $P,E$ positions. $P$ moves first. Branches marked 
 
 
 <figure>
-  <img src="https://aimacode.github.io/aima-exercises/figures/pursuit-evasion-game.svg" alt="pursuit-evasion-game-figure" id="pursuit-evasion-game-figure" style="width:100%" />
+  <img src="https://aimacode.github.io/aima-exercises/Jupyter%20notebook/figures/pursuit-evasion-game.svg" alt="pursuit-evasion-game-figure" id="pursuit-evasion-game-figure" style="width:100%" />
   <figcaption><center><b>Pursuit evasion game Figure</b></center></figcaption>
 </figure>
 </p>
@@ -252,15 +252,12 @@ by never losing.) An example is shown in Figure.
         <button type="button" class="btn btn-dark float-right" style="margin-left:10px; margin-right:10px;" title="Upvote Exercise" onclick="upvote('ex5.4');" href="#"><i id="ex5.4" class="fas fa-thumbs-up" style="color:white"></i></button>
     </div>
     <div class="card-body">
-        <p class="card-text">
-<div id="game-playing-chance-exercise">
-</div>
-Describe and implement state
+        <p class="card-text">Describe and implement state
 descriptions, move generators, terminal tests, utility functions, and
 evaluation functions for one or more of the following stochastic games:
 Monopoly, Scrabble, bridge play with a given contract, or Texas hold’em
 poker.
-</p>
+<div id="game-playing-chance-exercise"></div></p>
     </div>
 </div>
 
@@ -309,25 +306,14 @@ continuous physical state space.
         <button type="button" class="btn btn-dark float-right" style="margin-left:10px; margin-right:10px;" title="Upvote Exercise" onclick="upvote('ex5.7');" href="#"><i id="ex5.7" class="fas fa-thumbs-up" style="color:white"></i></button>
     </div>
     <div class="card-body">
-        <p class="card-text">
-
-Prove the following assertion: For every
+        <p class="card-text">Prove the following assertion: For every
 game tree, the utility obtained by max using minimax
 decisions against a suboptimal min will never be lower than
 the utility obtained playing against an optimal min. Can
 you come up with a game tree in which max can do still
 better using a <i>suboptimal</i> strategy against a suboptimal
 min?
-
-
-<figure>
-  <img src="https://aimacode.github.io/aima-exercises/figures/line-game4.svg" alt="line-game4-figure" id="line-game4-figure" style="width:100%" />
-  <figcaption><center><b>The starting position of a simple game.</b></center></figcaption>
-</figure>
-
-
-
-
+<br />
 Player $A$ moves first. The two players take turns moving, and each
 player must move his token to an open adjacent space in either
 direction.  If the opponent occupies an adjacent space, then a player
@@ -337,6 +323,11 @@ The game ends when one player reaches the opposite end of the board.
 If player $A$ reaches space 4 first, then the value of the game to $A$
 is $+1$; if player $B$ reaches space 1 first, then the value of the
 game to $A$ is $-1$.
+<figure>
+  <img src="https://aimacode.github.io/aima-exercises/Jupyter%20notebook/figures/line-game4.svg" alt="line-game4-figure" id="line-game4-figure" style="width:100%" />
+  <figcaption><center><b>The starting position of a simple game.</b></center></figcaption>
+</figure>
+
 </p>
     </div>
 </div>
@@ -548,9 +539,7 @@ and $k$, making the game almost zero-sum?
         <button type="button" class="btn btn-dark float-right" style="margin-left:10px; margin-right:10px;" title="Upvote Exercise" onclick="upvote('ex5.14');" href="#"><i id="ex5.14" class="fas fa-thumbs-up" style="color:white"></i></button>
     </div>
     <div class="card-body">
-        <p class="card-text">
-
-Develop a formal proof of correctness for alpha–beta pruning. To do
+        <p class="card-text">Develop a formal proof of correctness for alpha–beta pruning. To do
 this, consider the situation shown in
 Figure <a href="#alpha-beta-proof-figure">alpha-beta-proof-figure</a>. The question is whether
 to prune node $n_j$, which is a max-node and a descendant of node $n_1$.
@@ -574,11 +563,8 @@ can be shown to be independent of the value of $n_j$.<br />
     $l_i$ values.<br />
 
 4.  Repeat the process for the case where $n_j$ is a min-node.<br />
-
-
-
 <figure>
-  <img src="https://aimacode.github.io/aima-exercises/figures/alpha-beta-proof.svg" alt="alpha-beta-proof-figure" id="alpha-beta-proof-figure" style="width:100%" />
+  <img src="https://aimacode.github.io/aima-exercises/Jupyter%20notebook/figures/alpha-beta-proof.svg" alt="alpha-beta-proof-figure" id="alpha-beta-proof-figure" style="width:100%" />
   <figcaption><center><b>Situation when considering whether to prune node $n_j$.</b></center></figcaption>
 </figure>
 </p>
@@ -647,7 +633,7 @@ time it takes to do one disk seek with standard disk hardware?<br />
 
 
 <figure>
-  <img src="https://aimacode.github.io/aima-exercises/figures/pruning.svg" alt="trivial-chance-game-figure" id="trivial-chance-game-figure" style="width:100%" />
+  <img src="https://aimacode.github.io/aima-exercises/Jupyter%20notebook/figures/pruning.svg" alt="trivial-chance-game-figure" id="trivial-chance-game-figure" style="width:100%" />
   <figcaption><center><b>The complete game tree for a trivial game with chance nodes..</b></center></figcaption>
 </figure>
 </p>
@@ -737,9 +723,7 @@ tree, even when there are chance nodes.
         <button type="button" class="btn btn-dark float-right" style="margin-left:10px; margin-right:10px;" title="Upvote Exercise" onclick="upvote('ex5.21');" href="#"><i id="ex5.21" class="fas fa-thumbs-up" style="color:white"></i></button>
     </div>
     <div class="card-body">
-        <p class="card-text">
-<div id="ex5.21"></div>
-Consider the following procedure
+        <p class="card-text">Consider the following procedure
 for choosing moves in games with chance nodes:<br />
 
 -   Generate some dice-roll sequences (say, 50) down to a suitable depth
