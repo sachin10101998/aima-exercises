@@ -420,7 +420,7 @@ textarea.input100 {
   padding: 0 20px;
   min-width: 160px;
   height: 50px;
-  background-color: #ff4b5a;
+  background-color: #2467be;
   border-radius: 25px;
 
   font-family: Poppins-Medium;
@@ -433,11 +433,11 @@ textarea.input100 {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 
-  box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
-  -moz-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
-  -webkit-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
-  -o-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
-  -ms-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+  box-shadow: 0 10px 30px 0px rgba(130, 181, 240, 0.5);
+  -moz-box-shadow: 0 10px 30px 0px rgba(130, 181, 240, 0.5);
+  -webkit-box-shadow: 0 10px 30px 0px rgba(130, 181, 240, 0.5);
+  -o-box-shadow: 0 10px 30px 0px rgba(130, 181, 240, 0.5);
+  -ms-box-shadow: 0 10px 30px 0px rgba(130, 181, 240, 0.5);
 }
 
 .contact100-form-btn i {
