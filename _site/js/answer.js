@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       contentArea = document.getElementById("content");
       
       var node = document.createElement("div");// Create a <div> node
+      node.setAttribute("id", "answeridstyle");
       node.innerHTML = marked(data)    //Set inner HTML
       contentArea.appendChild(node);
       
