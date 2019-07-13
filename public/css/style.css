@@ -689,9 +689,12 @@ textarea.input100 {
 
 #answeridstyle{
   border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+  
   border-bottom: 1px solid black;
   
 }
 
+#answeridstyle p:first-of-type{
+  color: #070101;
+  background-color:rgb(206, 212, 218);
+}
