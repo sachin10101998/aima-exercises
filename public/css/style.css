@@ -688,16 +688,26 @@ textarea.input100 {
 }
 
 #answeridstyle{
-  border-top: 1px solid black;
-  
-  border-bottom: 1px solid black;
+  border-top: 1px solid rgb(90, 88, 88);
+  margin-top: 0px;
+  border-bottom: 3px solid rgb(90, 88, 88);
+  margin-bottom: 5px;
+  padding-top: 0px;
   
 }
 
 #answeridstyle p:first-of-type{
   color: #070101;
-  background-color:rgb(233, 233, 233);
+  background-color:rgb(226, 223, 223);
   font-weight:bold;
   padding: 15px;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+hr {
+  clear: both;
+  visibility: hidden;
+}
+
+#hideandviewusersolution{
+  background-color: #f5f5f5
 }
