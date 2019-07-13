@@ -1169,7 +1169,7 @@ ch4ex15:
   transforms:
     message: "frontmatterContent"
 
-  ch4ex16:
+ch4ex16:
   allowedFields: ["Name", "Email", "url", "message"]
   branch: "master" 
   commitMessage: "New Answer by {fields.Name} for chapter 4 Exercise 16"
@@ -1194,3 +1194,4 @@ ch4ex17:
   requiredFields: ["Name", "Email", "message"]
   transforms:
     message: "frontmatterContent"
+
