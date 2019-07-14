@@ -717,4 +717,5 @@ hr {
 
 #answeridstyle p:first-of-type:hover{
   background-color: #d0d0d0;
+  cursor: pointer;
 }
