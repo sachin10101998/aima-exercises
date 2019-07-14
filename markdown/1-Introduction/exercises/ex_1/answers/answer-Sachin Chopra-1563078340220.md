@@ -1,5 +1,4 @@
 ---
-_id: 6f973ca0-a5ef-11e9-a902-9b3d22ea5cc6
 Name: Sachin Chopra
 Email: schopra@mt.iitr.ac.in
 ---
