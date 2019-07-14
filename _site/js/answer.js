@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       
       var node = document.createElement("div");// Create a <div> node
       node.setAttribute("id", "answeridstyle");
+      node.setAttribute("markdown","1");
       node.innerHTML = marked(data)    //Set inner HTML
       contentArea.appendChild(node);
       

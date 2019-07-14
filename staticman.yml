@@ -1805,3 +1805,47 @@ ch7ex6:
   moderation: true
   path: "markdown/7-Logical-Agents/exercises/ex_6/answers/" 
   requiredFields: ["Name", "Email", "message"]
+
+ch7ex7:
+  allowedFields: ["Name", "Email", "url", "message"]
+  branch: "master" 
+  commitMessage: "New Answer by {fields.Name} for chapter 7 Exercise 7"
+  filename: "answer-{fields.Name}-{@timestamp}"
+  format: "frontmatter"
+  extension: "md"
+  moderation: true
+  path: "markdown/7-Logical-Agents/exercises/ex_7/answers/" 
+  requiredFields: ["Name", "Email", "message"]
+
+ch7ex8:
+  allowedFields: ["Name", "Email", "url", "message"]
+  branch: "master" 
+  commitMessage: "New Answer by {fields.Name} for chapter 7 Exercise 8"
+  filename: "answer-{fields.Name}-{@timestamp}"
+  format: "frontmatter"
+  extension: "md"
+  moderation: true
+  path: "markdown/7-Logical-Agents/exercises/ex_8/answers/" 
+  requiredFields: ["Name", "Email", "message"]
+
+ch7ex9:
+  allowedFields: ["Name", "Email", "url", "message"]
+  branch: "master" 
+  commitMessage: "New Answer by {fields.Name} for chapter 7 Exercise 9"
+  filename: "answer-{fields.Name}-{@timestamp}"
+  format: "frontmatter"
+  extension: "md"
+  moderation: true
+  path: "markdown/7-Logical-Agents/exercises/ex_9/answers/" 
+  requiredFields: ["Name", "Email", "message"]
+
+ch7ex10:
+  allowedFields: ["Name", "Email", "url", "message"]
+  branch: "master" 
+  commitMessage: "New Answer by {fields.Name} for chapter 7 Exercise 10"
+  filename: "answer-{fields.Name}-{@timestamp}"
+  format: "frontmatter"
+  extension: "md"
+  moderation: true
+  path: "markdown/7-Logical-Agents/exercises/ex_10/answers/" 
+  requiredFields: ["Name", "Email", "message"]
