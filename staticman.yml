@@ -1530,6 +1530,8 @@ ch6ex1:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_1/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex2:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1541,6 +1543,8 @@ ch6ex2:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_2/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex3:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1552,6 +1556,8 @@ ch6ex3:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_3/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex4:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1563,6 +1569,8 @@ ch6ex4:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_4/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex5:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1574,6 +1582,8 @@ ch6ex5:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_5/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex6:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1585,6 +1595,8 @@ ch6ex6:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_6/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex7:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1596,6 +1608,8 @@ ch6ex7:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_7/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex8:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1607,6 +1621,8 @@ ch6ex8:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_8/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex9:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1618,6 +1634,8 @@ ch6ex9:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_9/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex10:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1629,6 +1647,8 @@ ch6ex10:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_10/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex11:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1640,6 +1660,8 @@ ch6ex11:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_11/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex12:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1651,6 +1673,8 @@ ch6ex12:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_12/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex13:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1662,6 +1686,8 @@ ch6ex13:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_13/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex14:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1673,6 +1699,8 @@ ch6ex14:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_14/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex15:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1684,6 +1712,8 @@ ch6ex15:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_15/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex16:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1695,6 +1725,8 @@ ch6ex16:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_16/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex17:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1706,6 +1738,8 @@ ch6ex17:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_17/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex18:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1717,6 +1751,8 @@ ch6ex18:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_18/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex19:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1728,6 +1764,8 @@ ch6ex19:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_19/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch6ex20:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1739,6 +1777,8 @@ ch6ex20:
   moderation: true
   path: "markdown/6-Constraint-Satisfaction-Problems/exercises/ex_20/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch7ex1:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1750,6 +1790,8 @@ ch7ex1:
   moderation: true
   path: "markdown/7-Logical-Agents/exercises/ex_1/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch7ex2:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1761,6 +1803,8 @@ ch7ex2:
   moderation: true
   path: "markdown/7-Logical-Agents/exercises/ex_2/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch7ex3:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1772,6 +1816,8 @@ ch7ex3:
   moderation: true
   path: "markdown/7-Logical-Agents/exercises/ex_3/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch7ex4:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1783,6 +1829,8 @@ ch7ex4:
   moderation: true
   path: "markdown/7-Logical-Agents/exercises/ex_4/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch7ex5:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1794,6 +1842,8 @@ ch7ex5:
   moderation: true
   path: "markdown/7-Logical-Agents/exercises/ex_5/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch7ex6:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1805,6 +1855,8 @@ ch7ex6:
   moderation: true
   path: "markdown/7-Logical-Agents/exercises/ex_6/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch7ex7:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1816,6 +1868,8 @@ ch7ex7:
   moderation: true
   path: "markdown/7-Logical-Agents/exercises/ex_7/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch7ex8:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1827,6 +1881,8 @@ ch7ex8:
   moderation: true
   path: "markdown/7-Logical-Agents/exercises/ex_8/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch7ex9:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1838,6 +1894,8 @@ ch7ex9:
   moderation: true
   path: "markdown/7-Logical-Agents/exercises/ex_9/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
 
 ch7ex10:
   allowedFields: ["Name", "Email", "url", "message"]
@@ -1849,3 +1907,5 @@ ch7ex10:
   moderation: true
   path: "markdown/7-Logical-Agents/exercises/ex_10/answers/" 
   requiredFields: ["Name", "Email", "message"]
+  transforms:
+    message: "frontmatterContent"
