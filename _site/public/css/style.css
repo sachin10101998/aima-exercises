@@ -698,10 +698,11 @@ textarea.input100 {
 
 #answeridstyle p:first-of-type{
   color: #070101;
-  background-color:rgb(226, 223, 223);
+  background-color: #d0d0d0;
   font-weight:bold;
   padding: 15px;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 hr {
   clear: both;
