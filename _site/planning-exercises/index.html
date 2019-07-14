@@ -596,34 +596,6 @@ $g^0 \vee g^1 \vee \cdots \vee g^{T_{max}}$. <br />
   
 </article>
 
-<script type="text/javascript">
-var chapter  = String('/planning-exercises/')
-var chapterName = chapter.match(/\/([^\/]*)\//, "")[1]
-$.get( "https://aima-exercises.firebaseapp.com/rating/"+chapterName, function( data ) {
-  console.log(data)
-  $("i[data-chapter='"+chapterName+"']").each(function(index,element){
-  	ex = $(element).data("exercise")
-  	if(ex in data){
-  		console.log(data[ex])
-  		$(element).attr("data-rating",data[ex])
-  	}
-    $(".arrow-up").removeClass("loader")
-  })
-});
-
-$(document).on('click',"i[data-chapter]",function(e){
-	ele = $(e.target)
-  ele.addClass("loader")
-	exerciseName = ele.data("exercise")
-	$.post( "https://aima-exercises.firebaseapp.com/rating/"+chapterName+"/"+exerciseName, function( data ) {
-	  console.log(data)
-	  ele.attr("data-rating",data["rating"])
-    ele.removeClass("loader")
-	});	
-})
-
-
-</script>
 
       </div>
 
