@@ -1,3 +1,5 @@
+
+<div id="ex5.21"></div>
 Consider the following procedure
 for choosing moves in games with chance nodes:<br>
 
